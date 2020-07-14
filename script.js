@@ -1,15 +1,5 @@
 let content = document.getElementsByTagName('h2')[0];
 let loader = document.querySelector('.loader');
-<<<<<<< HEAD
-content.style.display = 'none'; // Hide website content at start.
-
-setTimeout(showContent, 3000); // Show Loader for 3s & then show website content.
-
-function showContent() {
-    content.style.display = 'block';
-    loader.remove() // Remove loader after content got loaded.
-}
-=======
 let startBtn = document.querySelector('#start');
 let stopBtn = document.querySelector('#stop');
 
@@ -34,4 +24,3 @@ function startStop(event) {
 
 startBtn.addEventListener('click', startStop); // Start loading
 stopBtn.addEventListener('click', startStop); // Stop loading
->>>>>>> Added Start/Stop Loader Feature!
