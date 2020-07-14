@@ -18,6 +18,29 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
+=======
+    flex-direction: column;
+}
+
+.anim-btns {
+    position: fixed;
+    margin-top: 8rem;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #3333;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    transition: 0.3s all ease-in;
+}
+
+button:active {
+    background-color: #f4f4;
+>>>>>>> Added Start/Stop Loader Feature!
 }
 
 
